@@ -107,7 +107,6 @@ function sorter() {
     let allist = document.querySelectorAll('input');
 
     allist.forEach(el => arr.push(el.value))
-    console.log(arr);
     list.innerHTML = '';
 
     if (counter == 0) {
@@ -143,7 +142,6 @@ function domcreator(el) {
         </div>`;
         });
         list.innerHTML = element
-        console.log(arr);
 
     } else {
         let element = ''
@@ -165,7 +163,6 @@ function domcreator(el) {
 
         });
         list.innerHTML = element
-        console.log(arr);
     }
 }
 //Mouseover-mouseout
