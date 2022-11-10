@@ -56,7 +56,6 @@ function addlistitem() {
 
 btn.addEventListener('click', addlistitem);
 
-
 // SORT
 let arr = [];
 let counter = 0;
